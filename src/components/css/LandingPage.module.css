@@ -1,0 +1,15 @@
+/* .main {
+  margin: 2rem auto;
+} */
+.body {
+  width: 100%;
+  height: 100%;
+  padding: 0% !important;
+  /* padding-top: 10%; */
+  margin-top: 0% !important;
+  background: url(../../../public/img/intro-bg.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
