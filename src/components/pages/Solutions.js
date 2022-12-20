@@ -1,17 +1,20 @@
 import React from "react";
-import appstyles from "../css/pages.module.css";
+import classes from "../css/pages.module.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import appstyles from "../css/appstyles.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 
 function Solutions() {
-  return (
-    <div className={appstyles.padtop}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsum
-      quae! Quasi voluptas ipsa, similique nesciunt iusto ratione molestiae
-      eveniet, aspernatur sequi ducimus ab deserunt minima officiis, deleniti
-      illum. Pariatur asperiores inventore, placeat aliquam quae, alias
-      assumenda perspiciatis culpa veritatis, possimus excepturi iusto numquam
-      at!
-    </div>
-  );
+  const divStyles = {
+    boxShadow: "1px 2px 9px #000000",
+    margin: "4% 10%",
+    padding: "1%",
+    width: "80%",
+  };
+  return <div className={classes.padtop}>Hello</div>;
 }
 
 export default Solutions;
